@@ -1,0 +1,30 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "limu-bank",
+  "version": "0.0.1",
+  "description": "Simple accounts app for limumaatti.",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "nedb": "^1.8.0",
+    "mocha": "^3.2.0",
+    "bcrypt": "^1.0.2"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "express"
+  ]
+}
